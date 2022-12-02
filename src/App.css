@@ -1,0 +1,38 @@
+.App {
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+ 
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.row {
+  display: flex;
+  flex-direction: row; /* definido por defecto */
+}
+
+.Card {
+  background-color: red;
+  flex:1;
+}
+
+.character1,
+.character1,
+.character2 {
+  flex: 1;
+}
+
+
+.character2 h1 {
+  text-align: end;
+}
