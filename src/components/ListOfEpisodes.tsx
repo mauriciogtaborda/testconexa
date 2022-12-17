@@ -1,6 +1,9 @@
 import React from 'react';
+interface ListOfEpisodesProps {
+  episodes: string[]
+}
 
-function ListOfEpisodes() {
+function ListOfEpisodes({episodes}: ListOfEpisodesProps) {
   return (
     <div className="row">
 
