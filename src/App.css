@@ -19,10 +19,10 @@
 .row {
   display: flex;
   flex-direction: row; /* definido por defecto */
+  flex-wrap: wrap;
 }
 
 .Card {
-  background-color: red;
   flex:1;
 }
 
